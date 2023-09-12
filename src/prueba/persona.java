@@ -5,12 +5,19 @@ package prueba;
 
 public class persona {
     
-        Main objPersona = new Main();
+     public static void main(String[] args){
+         Main objPersona = new Main();
         
-        objPersona.c = "Carlos";
+         
+         objPersona.nombre = "Carlos";
+         objPersona.edd = 20;
+         objPersona.comida = "arroz con pollo";
+         
+        objPersona.saludo();
+        objPersona.edad();
+        objPersona.platillo();
         
-        objPersona.metodo1();
-        objPersona.d = 18;
+                }
         
     }
     
